@@ -1,6 +1,6 @@
 {
 	"name": "Deploy",
-	"description": "Wa Bot.",
+	"description": "Asim MD",
 	"keywords": [
 		"whatsapp",
 		"bot"
@@ -11,7 +11,7 @@
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":"false"
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
@@ -21,7 +21,7 @@
         "READ_MESSAGES": {
             "description": "Bot will read all messages. Can be also false",
             "required": true,
-            "value":"false"
+            "value":"true"
         },
         "READ_COMMAND": {
             "description": "Bot will read all commands (blue tick). Can be also false",
@@ -36,7 +36,7 @@
         "HEROKU_APP_NAME": {
             "description": "Exact name which you gave at the top",
             "required": true,
-            "value":""
+            "value":"Asim MD"
         },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
@@ -46,12 +46,12 @@
         "CHATBOT": {
             "description": "AI chatbot",
             "required": true,
-            "value":"off"
+            "value":"on"
         },
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"Asim MD"
         },
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
@@ -70,12 +70,12 @@
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
-            "required": false,
-            "value":"919074309534"
+            "required": true,
+            "value":"923127655369"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
-            "required": false,
+            "required": true,
             "value":"{pp} Active since {uptime}\n User:{sender}"
         },
        "SESSION": {
